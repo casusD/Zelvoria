@@ -97,32 +97,32 @@ const MainPage = () => {
         <div className={styles.transformImg}>
           <img
             className={firstAnimPlay ? styles.fristPart : ""}
-            src="src\images\BG 3.png"
+            src="src/images/BG 3.png"
             alt="#"
           />
           <img
             className={secondAnimPlay ? styles.secondPart : ""}
-            src="src\images\BG 4.png"
+            src="src/images/BG 4.png"
             alt="#"
           />
           <img
             className={thirdAnimPlay ? styles.thirdPart : ""}
-            src="src\images\BG 3.png"
+            src="src/images/BG 3.png"
             alt="#"
           />
           <img
             className={thirdAnimPlay ? styles.thirdPart : ""}
-            src="src\images\BG 4.png"
+            src="src/images/BG 4.png"
             alt="#"
           />
           <img
             className={secondAnimPlay ? styles.secondPart : ""}
-            src="src\images\BG 3.png"
+            src="src/images/BG 3.png"
             alt="#"
           />
           <img
             className={firstAnimPlay ? styles.fristPart : ""}
-            src="src\images\BG 4.png"
+            src="src/images/BG 4.png"
             alt="#"
           />
         </div>
