@@ -1,0 +1,132 @@
+.navBar,
+.navBar nav,
+.navBar nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.miniBar {
+  justify-content: space-evenly;
+}
+
+.navBar {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.navBar nav {
+  width: 60%;
+}
+
+.navBar nav div {
+  box-sizing: border-box;
+  width: 25%;
+  // display: flex;
+  // justify-content: space-between;
+}
+
+.navBar nav div.links {
+  width: 40%;
+
+  a,
+  p {
+    color: var(--theme-page-text);
+    text-decoration: none;
+  }
+
+  a:hover,
+  p:hover {
+    text-decoration: underline;
+    color: var(--theme-color);
+    transition: color 0.3s linear;
+  }
+}
+
+.navBar h1 {
+  font-size: 21px;
+  text-align: center;
+}
+
+.navBar nav p {
+  display: inline;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.navBar nav p svg {
+  vertical-align: middle;
+  width: 18px;
+  height: 20px;
+}
+
+// div.dropDown {
+//   position: absolute;
+//   display: flex;
+//   flex-direction: column;
+//   width: 370px;
+//   border: 1px solid var(--theme-page-text);
+//   border-radius: 10px;
+//   background-color: var(--theme-page-background);
+//   top: 10%;
+//   left: 41%;
+//   box-shadow: 0 0 5px 1px var(--theme-page-text);
+//   z-index: 1;
+//   animation: dropdownShow 0.3s ease-in-out forwards;
+// }
+
+// .dropDown.hide {
+//   animation: dropdownHide 0.3s ease-in-out forwards;
+// }
+
+div.dropDown p {
+  margin: 0;
+  padding-left: 20px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.lang p:hover {
+  background-color: #eae2b7;
+}
+
+div.lang {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  animation: dropdownShow 0.3s ease-in-out forwards;
+}
+
+div.lang p {
+  margin: 0;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 3px 10px;
+}
+
+@keyframes dropdownShow {
+  from {
+    transform: scale(0);
+    transform-origin: top left;
+  }
+  to {
+    transform: scale(1);
+    transform-origin: top left;
+  }
+}
+
+@keyframes dropdownHide {
+  from {
+    transform: scale(1);
+    transform-origin: top left;
+  }
+  to {
+    transform: scale(0);
+    transform-origin: top left;
+  }
+}

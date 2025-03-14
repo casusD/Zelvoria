@@ -1,0 +1,75 @@
+.feedback {
+  margin-top: 8px;
+  background-image: url("src/images/bgProjects/vacancies.png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: space-around;
+
+  padding: 10% 0;
+
+  .feedbackInfo {
+    width: 30%;
+
+    h3 {
+      text-align: center;
+      color: var(--theme-color);
+      font-size: 16px;
+      margin-bottom: 3rem;
+
+      span {
+        font-size: 35px;
+        color: var(--theme-page-background);
+      }
+    }
+
+    p {
+      line-height: 37px;
+      font-size: 18px;
+      color: var(--theme-page-background);
+    }
+  }
+
+  form {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+
+    input,
+    textarea {
+      background: white;
+      color: var(--theme-page-text);
+      outline: none;
+      border: 2px solid var(--theme-color);
+      border-radius: 10px;
+      margin-top: 1rem;
+      font-size: 16px;
+    }
+
+    textarea::-webkit-scrollbar {
+      display: none;
+    }
+
+    input {
+      height: 30px;
+      text-indent: 1rem;
+    }
+
+    textarea {
+      height: 120px;
+      resize: none;
+      max-height: 120px;
+      overflow-y: auto;
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    button {
+      margin: 0 auto;
+      margin-top: 2rem;
+    }
+  }
+}

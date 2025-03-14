@@ -1,0 +1,16 @@
+.generalBtn {
+  cursor: pointer;
+  background-color: var(--theme-color);
+  // width: 108px;
+  width: fit-content;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: color 0.5s linear, background-color 0.5s linear;
+}
+
+.generalBtn:hover {
+  background-color: #fcbf49;
+  color: var(--theme-page-text);
+}

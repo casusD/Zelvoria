@@ -1,0 +1,35 @@
+.sidebar {
+  background-color: var(--theme-color);
+  color: white;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+  h1 {
+    font-size: 40px;
+    border-bottom: thin solid white;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .vacList {
+    margin-top: 20%;
+    text-align: center;
+
+    h3 {
+      width: 100%;
+      font-size: 18px;
+      padding: 10px 0;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+  }
+}
+
+.active {
+  background-color: white;
+  color: var(--theme-page-text);
+  transition: color 0.5s, background-color 0.5s;
+}

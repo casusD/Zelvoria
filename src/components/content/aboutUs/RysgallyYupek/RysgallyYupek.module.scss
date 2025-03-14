@@ -1,0 +1,134 @@
+.yupek {
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 100%;
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.circle {
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(245, 131, 31, 0.315);
+}
+
+.logosLink {
+  cursor: pointer;
+
+  img {
+    height: 45px;
+    margin-bottom: 1rem;
+  }
+}
+
+.logosLink:hover {
+  img {
+    transform: scale(1.5);
+    transition: transform 0.5s;
+  }
+  .circle {
+    background-color: var(--theme-color);
+    transition: background-color 0.5s;
+  }
+}
+
+.active {
+  img {
+    transform: scale(1.5);
+  }
+  .circle {
+    background-color: var(--theme-color);
+  }
+}
+
+////////////////////////////////
+
+.yupekCont {
+  padding-top: 2rem;
+
+  background-image: url("./img/bgCity.png");
+  background-size: cover;
+  border-bottom: 2px solid;
+
+  button {
+    background-color: #263173;
+  }
+
+  button:hover {
+    color: white;
+    background-color: #415dff;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5rem;
+  }
+}
+
+.yupekFlex {
+  margin-top: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+
+  header {
+    width: 50%;
+
+    p {
+      width: 55%;
+      text-align: justify;
+      margin: 0 auto;
+      margin-top: 7%;
+      font-size: 18px;
+    }
+
+    button {
+      margin-left: 22.3%;
+      margin-top: 2rem;
+    }
+
+    img {
+      margin-left: 30%;
+    }
+  }
+}
+
+.yupekGrid {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  justify-items: center;
+  column-gap: 4rem;
+  row-gap: 4rem;
+
+  div {
+    background-color: var(--theme-page-background);
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px 1px black;
+    text-align: center;
+    overflow: hidden;
+
+    img {
+      width: 200px;
+      height: 143px;
+      object-fit: cover;
+    }
+  }
+
+  div:hover {
+    img {
+      transform: scale(1.1);
+      transition: transform 1s;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+// @use "/src/styles/theme.scss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --theme-color: #f5831f;
+  --theme-page-background: #f5f5f5;
+  --theme-page-text: #003049;
+
+  color-scheme: light dark;
+  color: var(--theme-page-text);
+  background-color: var(--theme-page-background);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}

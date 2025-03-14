@@ -1,0 +1,78 @@
+.details {
+  padding: 0 3rem;
+  padding-bottom: 5rem;
+  text-align: center;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+
+    h1 {
+      line-height: 40px;
+      font-size: 30px;
+      font-weight: 400;
+
+      span {
+        font-size: 40px;
+        font-weight: 600;
+      }
+    }
+
+    p {
+      width: 25%;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      font-weight: lighter;
+    }
+  }
+
+  .detailsText {
+    font-size: 18px;
+    text-indent: 2rem;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  .conditions {
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      box-sizing: border-box;
+      width: 316px;
+      height: 361px;
+      border: thin solid;
+      border-radius: 20px;
+      box-shadow: 0 0 0 7px inset white;
+      padding: 10px;
+      text-align: center;
+
+      h4 {
+        font-size: 25px;
+        margin: 1rem 0;
+      }
+
+      ul {
+        text-align: start;
+        line-height: 35px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.pinkCard {
+  background-color: #ffd9d9;
+}
+
+.greenCard {
+  background-color: #d4f6ed;
+}
+
+.blueCard {
+  background-color: #aadef0;
+}
