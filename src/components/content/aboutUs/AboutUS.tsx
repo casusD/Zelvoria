@@ -5,6 +5,8 @@ import styles from "./AboutUs.module.scss";
 import { logos } from "./aboutUsData";
 import { useModalContext } from "../vacancy/modalVacancy/ModalContext";
 
+import arrowTop from "../../../images/topArrow.png";
+
 const AboutUs = () => {
   const { lang } = useModalContext();
 
@@ -39,7 +41,7 @@ const AboutUs = () => {
               ? "Мы - группа компаний, активно развивающаяся в нескольких направлениях бизнеса."
               : "We are a group of companies actively developing in several business areas."}
           </h5>
-          <img src="src\images\topArrow.png" alt="#" />
+          <img src={arrowTop} alt="#" />
           <p>
             {lang == "ru"
               ? "Нажмите на логотип компании, чтобы узнать больше"

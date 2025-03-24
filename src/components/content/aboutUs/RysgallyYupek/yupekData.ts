@@ -1,3 +1,8 @@
+import visa from "./img/visa.png";
+import taxi from "./img/taxi.png";
+import gid from "./img/gid.png";
+import hotel from "./img/hotel.png";
+
 interface IYupekData {
   name: ILang;
   img: string;
@@ -15,27 +20,27 @@ export const yupekData: IYupekData[] = [
       en: "Visa support",
       ru: "Визовая поддержка",
     },
-    img: "src/components/content/aboutUs/RysgallyYupek/img/visa.png",
+    img: visa,
   },
   {
     name: {
       en: "Transportation services",
       ru: "Транспортные услуги",
     },
-    img: "src/components/content/aboutUs/RysgallyYupek/img/taxi.png",
+    img: taxi,
   },
   {
     name: {
       en: "Guide services",
       ru: "Услуги гида",
     },
-    img: "src/components/content/aboutUs/RysgallyYupek/img/gid.png",
+    img: gid,
   },
   {
     name: {
       en: "Hotel reservations",
       ru: "Бронирование отелей",
     },
-    img: "src/components/content/aboutUs/RysgallyYupek/img/hotel.png",
+    img: hotel,
   },
 ];

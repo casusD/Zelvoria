@@ -5,40 +5,25 @@ import styles from "./Companies.module.scss";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
-const companies1 = [
-  <img
-    src="src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module.png"
-    alt="#"
-  />,
-  <img
-    src="src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(1).png"
-    alt="#"
-  />,
-  <img
-    src="src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(2).png"
-    alt="#"
-  />,
-  <img
-    src="src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(3).png"
-    alt="#"
-  />,
+import moduleImg from "../../vacancy/vacancyDetails/vacancyCard/cardsImage/Module.png";
+import moduleImg1 from "../../vacancy/vacancyDetails/vacancyCard/cardsImage/Module(1).png";
+import moduleImg2 from "../../vacancy/vacancyDetails/vacancyCard/cardsImage/Module(2).png";
+import moduleImg3 from "../../vacancy/vacancyDetails/vacancyCard/cardsImage/Module(3).png";
+import moduleImg4 from "../../vacancy/vacancyDetails/vacancyCard/cardsImage/Module(4).png";
+import moduleImg5 from "../../vacancy/vacancyDetails/vacancyCard/cardsImage/Module(5).png";
+import moduleImg6 from "../../vacancy/vacancyDetails/vacancyCard/cardsImage/Module(6).png";
+import moduleImg7 from "../../vacancy/vacancyDetails/vacancyCard/cardsImage/Module(7).png";
 
-  <img
-    src="src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(4).png"
-    alt="#"
-  />,
-  <img
-    src="src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(5).png"
-    alt="#"
-  />,
-  <img
-    src="src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(6).png"
-    alt="#"
-  />,
-  <img
-    src="src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(7).png"
-    alt="#"
-  />,
+const companies1 = [
+  <img src={moduleImg} alt="#" />,
+  <img src={moduleImg1} alt="#" />,
+  <img src={moduleImg2} alt="#" />,
+  <img src={moduleImg3} alt="#" />,
+
+  <img src={moduleImg4} alt="#" />,
+  <img src={moduleImg5} alt="#" />,
+  <img src={moduleImg6} alt="#" />,
+  <img src={moduleImg7} alt="#" />,
 ];
 
 const responsive = {

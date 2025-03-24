@@ -13,6 +13,9 @@ import {
   useModalContext,
 } from "../../vacancy/modalVacancy/ModalContext";
 
+import bg3 from "../../../../images/BG 3.png";
+import bg4 from "../../../../images/BG 4.png";
+
 const InnovativeSolutions: Record<LangType, string[]> = {
   en: ["Automation", "IT", "Tourism", "Business", "Logistics", "Transport"],
   ru: ["Автоматизации", "ИТ", "Туризме", "Бизнесе", "Логистике", "Транспорте"],
@@ -97,32 +100,32 @@ const MainPage = () => {
         <div className={styles.transformImg}>
           <img
             className={firstAnimPlay ? styles.fristPart : ""}
-            src="src/images/BG 3.png"
+            src={bg3}
             alt="#"
           />
           <img
             className={secondAnimPlay ? styles.secondPart : ""}
-            src="src/images/BG 4.png"
+            src={bg4}
             alt="#"
           />
           <img
             className={thirdAnimPlay ? styles.thirdPart : ""}
-            src="src/images/BG 3.png"
+            src={bg3}
             alt="#"
           />
           <img
             className={thirdAnimPlay ? styles.thirdPart : ""}
-            src="src/images/BG 4.png"
+            src={bg4}
             alt="#"
           />
           <img
             className={secondAnimPlay ? styles.secondPart : ""}
-            src="src/images/BG 3.png"
+            src={bg3}
             alt="#"
           />
           <img
             className={firstAnimPlay ? styles.fristPart : ""}
-            src="src/images/BG 4.png"
+            src={bg4}
             alt="#"
           />
         </div>

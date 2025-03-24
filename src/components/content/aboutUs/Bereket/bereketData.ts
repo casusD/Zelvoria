@@ -1,3 +1,7 @@
+import cardImg from "./img/cardImg.png";
+import cardImg1 from "./img/cardImg (1).png";
+import cardImg2 from "./img/cardImg (2).png";
+
 interface IBereketData {
   name: ILang;
   img: string;
@@ -16,7 +20,7 @@ export const bereketData: IBereketData[] = [
       en: "Freight forwarding",
       ru: "Экспедирование грузов",
     },
-    img: "src/components/content/aboutUs/Bereket/img/cardImg.png",
+    img: cardImg,
     style: {
       gridRow: "1 /  2",
       gridColumn: "1 / 2",
@@ -27,7 +31,7 @@ export const bereketData: IBereketData[] = [
       en: "Customs clearance",
       ru: "Таможенное оформление",
     },
-    img: "src/components/content/aboutUs/Bereket/img/cardImg (1).png",
+    img: cardImg1,
     style: {
       gridRow: "2 / 3",
       gridColumn: "2 / 3",
@@ -38,7 +42,7 @@ export const bereketData: IBereketData[] = [
       en: "Logistics solutions",
       ru: "Логистические решения",
     },
-    img: "src/components/content/aboutUs/Bereket/img/cardImg (2).png",
+    img: cardImg2,
     style: {
       gridRow: "3 / 4",
       gridColumn: "1 / 2",

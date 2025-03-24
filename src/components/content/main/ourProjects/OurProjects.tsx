@@ -8,6 +8,24 @@ import {
   useModalContext,
 } from "../../vacancy/modalVacancy/ModalContext";
 
+import busPay from "../../../../images/projects/busPay.png";
+import prcssng from "../../../../images/projects/prcssng.png";
+import internetbnkng from "../../../../images/projects/internetbnkng.png";
+import senagatApp from "../../../../images/projects/senagatApp.png";
+import terminal from "../../../../images/projects/terminal.png";
+import gumruk from "../../../../images/projects/gumruk.png";
+import osus from "../../../../images/projects/osus.png";
+import sinopec from "../../../../images/projects/sinopec.png";
+
+import bus from "../../../../images/bgProjects/bus.png";
+import senagatPrcs from "../../../../images/bgProjects/senagatPrcs.png";
+import internetbnkngBG from "../../../../images/bgProjects/internetbnkng.png";
+import senagatAppBG from "../../../../images/bgProjects/senagatApp.png";
+import terminalBG from "../../../../images/bgProjects/terminal.png";
+import gumrukBG from "../../../../images/bgProjects/gumruk.png";
+import osusBank from "../../../../images/bgProjects/osusBank.png";
+import sinopecBG from "../../../../images/bgProjects/sinopec.png";
+
 interface IProject {
   currentProject: string;
   nextProject: string;
@@ -16,25 +34,25 @@ interface IProject {
 }
 
 const projectsImage: string[] = [
-  "src/images/projects/busPay.png",
-  "src/images/projects/prcssng.png",
-  "src/images/projects/internetbnkng.png",
-  "src/images/projects/senagatApp.png",
-  "src/images/projects/terminal.png",
-  "src/images/projects/gumruk.png",
-  "src/images/projects/osus.png",
-  "src/images/projects/sinopec.png",
+  busPay,
+  prcssng,
+  internetbnkng,
+  senagatApp,
+  terminal,
+  gumruk,
+  osus,
+  sinopec,
 ];
 
 const projectsImageBg: string[] = [
-  "src/images/bgProjects/bus.png",
-  "src/images/bgProjects/senagatPrcs.png",
-  "src/images/bgProjects/internetbnkng.png",
-  "src/images/bgProjects/senagatApp.png",
-  "src/images/bgProjects/terminal.png",
-  "src/images/bgProjects/gumruk.png",
-  "src/images/bgProjects/osusBank.png",
-  "src/images/bgProjects/sinopec.png",
+  bus,
+  senagatPrcs,
+  internetbnkngBG,
+  senagatAppBG,
+  terminalBG,
+  gumrukBG,
+  osusBank,
+  sinopecBG,
 ];
 
 const useProject = (arr: string[]) => {

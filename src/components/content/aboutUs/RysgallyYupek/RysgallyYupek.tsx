@@ -5,6 +5,8 @@ import Button from "../../../layout/button/Button";
 import { logos } from "../aboutUsData";
 import styles from "./RysgallyYupek.module.scss";
 
+import airPlane from "./img/heartAircraftDecor.png";
+
 import { yupekData } from "./yupekData";
 import { useModalContext } from "../../vacancy/modalVacancy/ModalContext";
 
@@ -67,10 +69,7 @@ const RysgallyYupek = () => {
                 {lang == "ru" ? "Перейдите на веб-сайт" : "Go to the website"}
               </Button>
 
-              <img
-                src="src\components\content\aboutUs\RysgallyYupek\img\heartAircraftDecor.png"
-                alt="#"
-              />
+              <img src={airPlane} alt="#" />
             </header>
 
             <div className={styles.yupekGrid}>

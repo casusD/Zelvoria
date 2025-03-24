@@ -1,3 +1,12 @@
+import moduleImg from "./cardsImage/Module.png";
+import moduleImg1 from "./cardsImage/Module(1).png";
+import moduleImg2 from "./cardsImage/Module(2).png";
+import moduleImg3 from "./cardsImage/Module(3).png";
+import moduleImg4 from "./cardsImage/Module(4).png";
+import moduleImg5 from "./cardsImage/Module(5).png";
+import moduleImg6 from "./cardsImage/Module(6).png";
+import moduleImg7 from "./cardsImage/Module(7).png";
+
 export interface ICards {
   company: string;
   profesion: Iprofesion;
@@ -17,8 +26,7 @@ export const cards: ICards[] = [
       en: "Programmer",
       ru: "Программист",
     },
-    image:
-      "src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module.png",
+    image: moduleImg,
   },
   {
     company: "Vexora",
@@ -26,8 +34,7 @@ export const cards: ICards[] = [
       en: "Medical Assistant",
       ru: "Фельдшер",
     },
-    image:
-      "src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(7).png",
+    image: moduleImg7,
   },
   {
     company: "Lunexis",
@@ -35,8 +42,7 @@ export const cards: ICards[] = [
       en: "Tourism specialist",
       ru: "Специалист по туризму",
     },
-    image:
-      "src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(6).png",
+    image: moduleImg6,
   },
   {
     company: "Brizora",
@@ -44,8 +50,7 @@ export const cards: ICards[] = [
       en: "Nursing Assistant",
       ru: "Ассистент медсестры",
     },
-    image:
-      "src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(5).png",
+    image: moduleImg5,
   },
   {
     company: "Terniq",
@@ -53,8 +58,7 @@ export const cards: ICards[] = [
       en: "Marketing Coordinator",
       ru: "Координатор по маркетингу",
     },
-    image:
-      "src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(4).png",
+    image: moduleImg4,
   },
   {
     company: "Sylox",
@@ -62,8 +66,7 @@ export const cards: ICards[] = [
       en: "Programmer",
       ru: "Программист",
     },
-    image:
-      "src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(3).png",
+    image: moduleImg3,
   },
   {
     company: "Xelvora",
@@ -71,8 +74,7 @@ export const cards: ICards[] = [
       en: "Sales Manager",
       ru: "Менеджер по продажам",
     },
-    image:
-      "src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(2).png",
+    image: moduleImg2,
   },
   {
     company: "Dravex",
@@ -80,7 +82,6 @@ export const cards: ICards[] = [
       en: "Travel Manager",
       ru: "Менеджер по путешествиям",
     },
-    image:
-      "src/components/content/vacancy/vacancyDetails/vacancyCard/cardsImage/Module(1).png",
+    image: moduleImg1,
   },
 ];

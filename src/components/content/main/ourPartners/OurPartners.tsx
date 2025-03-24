@@ -2,35 +2,64 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import styles from "./OurPartners.module.scss";
 
+import oracle from "../../../../images/ourPartner/oracle.png";
+import huawei from "../../../../images/ourPartner/huawei.png";
+import asiaPetro from "../../../../images/ourPartner/asiaPetro.png";
+import bars from "../../../../images/ourPartner/bars.png";
+import bouygues from "../../../../images/ourPartner/bouygues.png";
+import bpcGroup from "../../../../images/ourPartner/bpcGroup.png";
+import checkPoint from "../../../../images/ourPartner/checkPoint.png";
+import cisco from "../../../../images/ourPartner/cisco.png";
+import cnpc from "../../../../images/ourPartner/cnpc.png";
+import colvir from "../../../../images/ourPartner/colvir.png";
+import digitus from "../../../../images/ourPartner/digitus.png";
+import ekassir from "../../../../images/ourPartner/ekassir.png";
+import elcore from "../../../../images/ourPartner/elcore.png";
+import erc from "../../../../images/ourPartner/erc.png";
+import h3c from "../../../../images/ourPartner/h3c.png";
+import henkel from "../../../../images/ourPartner/henkel.png";
+import hewlett from "../../../../images/ourPartner/hewlett.png";
+import hytera from "../../../../images/ourPartner/hytera.png";
+import idemia from "../../../../images/ourPartner/idemia.png";
+import lanter from "../../../../images/ourPartner/lanter.png";
+import lmf from "../../../../images/ourPartner/lmf.png";
+import netapp from "../../../../images/ourPartner/netapp.png";
+import papersystems from "../../../../images/ourPartner/papersystems.png";
+import premix from "../../../../images/ourPartner/premix.png";
+import schneider from "../../../../images/ourPartner/schneider.png";
+import sinopec from "../../../../images/ourPartner/sinopec.png";
+import tactilion from "../../../../images/ourPartner/tactilion.png";
+import waviot from "../../../../images/ourPartner/waviot.png";
+
 const partnersLogo = [
-  <img src="src/images/ourPartner/oracle.png" alt="#" />,
-  <img src="src/images/ourPartner/huawei.png" alt="#" />,
-  <img src="src/images/ourPartner/asiaPetro.png" alt="#" />,
-  <img src="src/images/ourPartner/bars.png" alt="#" />,
-  <img src="src/images/ourPartner/bouygues.png" alt="#" />,
-  <img src="src/images/ourPartner/bpcGroup.png" alt="#" />,
-  <img src="src/images/ourPartner/checkPoint.png" alt="" />,
-  <img src="src/images/ourPartner/cisco.png" alt="#" />,
-  <img src="src/images/ourPartner/cnpc.png" alt="#" />,
-  <img src="src/images/ourPartner/colvir.png" alt="#" />,
-  <img src="src/images/ourPartner/digitus.png" alt="#" />,
-  <img src="src/images/ourPartner/ekassir.png" alt="#" />,
-  <img src="src/images/ourPartner/elcore.png" alt="#" />,
-  <img src="src/images/ourPartner/erc.png" alt="#" />,
-  <img src="src/images/ourPartner/h3c.png" alt="#" />,
-  <img src="src/images/ourPartner/henkel.png" alt="#" />,
-  <img src="src/images/ourPartner/hewlett.png" alt="#" />,
-  <img src="src/images/ourPartner/hytera.png" alt="#" />,
-  <img src="src/images/ourPartner/idemia.png" alt="#" />,
-  <img src="src/images/ourPartner/lanter.png" alt="#" />,
-  <img src="src/images/ourPartner/lmf.png" alt="#" />,
-  <img src="src/images/ourPartner/netapp.png" alt="#" />,
-  <img src="src/images/ourPartner/papersystems.png" alt="#" />,
-  <img src="src/images/ourPartner/premix.png" alt="#" />,
-  <img src="src/images/ourPartner/schneider.png" alt="#" />,
-  <img src="src/images/ourPartner/sinopec.png" alt="#" />,
-  <img src="src/images/ourPartner/tactilion.png" alt="#" />,
-  <img src="src/images/ourPartner/waviot.png" alt="#" />,
+  <img src={oracle} alt="#" />,
+  <img src={huawei} alt="#" />,
+  <img src={asiaPetro} alt="#" />,
+  <img src={bars} alt="#" />,
+  <img src={bouygues} alt="#" />,
+  <img src={bpcGroup} alt="#" />,
+  <img src={checkPoint} alt="" />,
+  <img src={cisco} alt="#" />,
+  <img src={cnpc} alt="#" />,
+  <img src={colvir} alt="#" />,
+  <img src={digitus} alt="#" />,
+  <img src={ekassir} alt="#" />,
+  <img src={elcore} alt="#" />,
+  <img src={erc} alt="#" />,
+  <img src={h3c} alt="#" />,
+  <img src={henkel} alt="#" />,
+  <img src={hewlett} alt="#" />,
+  <img src={hytera} alt="#" />,
+  <img src={idemia} alt="#" />,
+  <img src={lanter} alt="#" />,
+  <img src={lmf} alt="#" />,
+  <img src={netapp} alt="#" />,
+  <img src={papersystems} alt="#" />,
+  <img src={premix} alt="#" />,
+  <img src={schneider} alt="#" />,
+  <img src={sinopec} alt="#" />,
+  <img src={tactilion} alt="#" />,
+  <img src={waviot} alt="#" />,
 ];
 
 const responsive = {
