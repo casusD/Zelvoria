@@ -153,7 +153,7 @@ const OurProjects = () => {
         </div>
         <div
           className={styles.bgOpacity}
-          style={{ backgroundImage: `url(${projectsImageBg[objProject.bg]})` }}
+          style={{ backgroundImage: projectsImageBg[objProject.bg] }}
         ></div>
       </div>
     </>
